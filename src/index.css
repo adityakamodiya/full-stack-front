@@ -1,0 +1,20 @@
+*{
+  margin:  0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.table{         
+
+                margin: 1%;
+                border: 1px solid;  
+}
+  .table tr td{
+  text-align: center;
+
+  border: 1px solid;
+
+}
+th,td{
+  border: 1px solid;
+  width: 1%;
+}
