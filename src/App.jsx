@@ -23,9 +23,16 @@ async function deleteData(index){
     window.location.reload()  
   
 } 
- function editData(index){          
 
-  navigate('/editdata/'+index)    
+// useEffect(()=>{
+//   axios.get('http://localhost:8081/')
+//   .then((res)=>{
+
+//   })
+// },[])
+ function editData(index){          
+    
+  navigate(`/editdata/${index}`)    
   // <Edit/>
   
 
