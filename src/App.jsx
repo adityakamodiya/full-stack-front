@@ -56,7 +56,7 @@ async function deleteData(index){
             data.map((res, index) => {
               return (
                 <tr key={index}>
-                  <td>{res.id}</td>
+                  <td>{index+1}</td>
                   <td className='table-name'>{res.name}</td>
                   <td>{res.age}</td>
                   <td>{res.phone}</td>

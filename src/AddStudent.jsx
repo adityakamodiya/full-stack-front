@@ -14,7 +14,7 @@ function AddStudent() {
         e.preventDefault()
         axios.post("http://localhost:8081/add", {
             
-            name, age, phone
+              name, age, phone
         })
             .then((result) => {
                 if (result.status === 200 && result.statusText === "OK") console.log(result)
